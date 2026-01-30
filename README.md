@@ -35,6 +35,12 @@ cmake --build . --config Release
 bazel build //:benchmark_kdtree
 ```
 
+#### Clean all the build and downloaded files
+
+```bash
+bazel clean --expunge
+```
+
 #### Run the benchmark
 
 ```bash

@@ -9,6 +9,14 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 
+# Bazel
+bazel-*
+bazel-out/
+bazel-bin/
+bazel-genfiles/
+bazel-testlogs/
+.bazel/
+
 # Output files
 benchmark_results.json
 benchmark_results.csv

@@ -95,6 +95,9 @@ void saveResultsToCSV(const std::string& filename,
 }
 
 int main(int argc, char* argv[]) {
+    (void)argc;
+    (void)argv;
+
     double radius = 15.0;  // 15 cm
     int grid_size = 100;
     int iterations = 20;  // Increased iterations

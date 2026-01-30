@@ -1,4 +1,6 @@
-load("@bazel_tools//tools/cpp:cpp.bzl", "cc_library", "cc_binary")
+load("@rules_cc//cc:cc_binary.bzl", "cc_binary")
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+load("@rules_cc//cc:cc_import.bzl", "cc_import")
 
 cc_import(
     name = "headers",
@@ -12,7 +14,7 @@ cc_binary(
     srcs = ["src/main.cpp"],
     deps = [
         ":headers",
-        "@nlohmann_json",
+        "@nlohmann_json//:json",
     ],
     copts = ["-std=c++17", "-O2", "-Wall", "-Wextra"],
     linkopts = ["-lm"],
