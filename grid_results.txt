@@ -1,0 +1,215 @@
+=== K-D Tree vs Regular Search Benchmark ===
+
+Configuration:
+  Circle Radius: 15 cm
+  Coordinate System: [-15, 15] cm x [-15, 15] cm
+  Grid Size: 12 x 12
+  Grid Size (cm): 2.5cm x 2.5cm
+  Max Test Points: 144
+  Iterations: 20
+
+Generating regular points in circle with respective cells...
+Generated 113 center points
+
+Random shuffle points for unbiased access patterns
+
+Running benchmarks...
+  Regular Search: Done
+  K-D Tree Search: Done
+
+======================================================================
+BENCHMARK RESULTS
+======================================================================
+
+Method: Regular Search
+  Total Time: 0.28 ms
+  Average Time per Iteration: 0.014 ms
+  Memory Used: 3.53 KB
+  Total Points Searched: 20000
+
+Method: KD-Tree Search
+  Total Time: 0.40 ms
+  Average Time per Iteration: 0.020 ms
+  Memory Used: 7.06 KB
+  Total Points Searched: 20000
+
+----------------------------------------------------------------------
+SPEEDUP (Regular vs KD-Tree): 0.69x
+======================================================================
+
+Results saved to: benchmark_results.json
+CSV saved to: benchmark_results.csv
+
+Benchmark complete!
+=== K-D Tree vs Regular Search Benchmark ===
+
+Configuration:
+  Circle Radius: 15 cm
+  Coordinate System: [-15, 15] cm x [-15, 15] cm
+  Grid Size: 13 x 13
+  Grid Size (cm): 2.30769cm x 2.30769cm
+  Max Test Points: 169
+  Iterations: 20
+
+Generating regular points in circle with respective cells...
+Generated 124 center points
+
+Random shuffle points for unbiased access patterns
+
+Running benchmarks...
+  Regular Search: Done
+  K-D Tree Search: Done
+
+======================================================================
+BENCHMARK RESULTS
+======================================================================
+
+Method: Regular Search
+  Total Time: 0.36 ms
+  Average Time per Iteration: 0.018 ms
+  Memory Used: 3.88 KB
+  Total Points Searched: 20000
+
+Method: KD-Tree Search
+  Total Time: 0.38 ms
+  Average Time per Iteration: 0.019 ms
+  Memory Used: 7.75 KB
+  Total Points Searched: 20000
+
+----------------------------------------------------------------------
+SPEEDUP (Regular vs KD-Tree): 0.96x
+======================================================================
+
+Results saved to: benchmark_results.json
+CSV saved to: benchmark_results.csv
+
+Benchmark complete!
+=== K-D Tree vs Regular Search Benchmark ===
+
+Configuration:
+  Circle Radius: 15 cm
+  Coordinate System: [-15, 15] cm x [-15, 15] cm
+  Grid Size: 14 x 14
+  Grid Size (cm): 2.14286cm x 2.14286cm
+  Max Test Points: 196
+  Iterations: 20
+
+Generating regular points in circle with respective cells...
+Generated 149 center points
+
+Random shuffle points for unbiased access patterns
+
+Running benchmarks...
+  Regular Search: Done
+  K-D Tree Search: Done
+
+======================================================================
+BENCHMARK RESULTS
+======================================================================
+
+Method: Regular Search
+  Total Time: 0.40 ms
+  Average Time per Iteration: 0.020 ms
+  Memory Used: 4.66 KB
+  Total Points Searched: 20000
+
+Method: KD-Tree Search
+  Total Time: 0.51 ms
+  Average Time per Iteration: 0.025 ms
+  Memory Used: 9.31 KB
+  Total Points Searched: 20000
+
+----------------------------------------------------------------------
+SPEEDUP (Regular vs KD-Tree): 0.79x
+======================================================================
+
+Results saved to: benchmark_results.json
+CSV saved to: benchmark_results.csv
+
+Benchmark complete!
+=== K-D Tree vs Regular Search Benchmark ===
+
+Configuration:
+  Circle Radius: 15 cm
+  Coordinate System: [-15, 15] cm x [-15, 15] cm
+  Grid Size: 15 x 15
+  Grid Size (cm): 2cm x 2cm
+  Max Test Points: 225
+  Iterations: 20
+
+Generating regular points in circle with respective cells...
+Generated 172 center points
+
+Random shuffle points for unbiased access patterns
+
+Running benchmarks...
+  Regular Search: Done
+  K-D Tree Search: Done
+
+======================================================================
+BENCHMARK RESULTS
+======================================================================
+
+Method: Regular Search
+  Total Time: 0.64 ms
+  Average Time per Iteration: 0.032 ms
+  Memory Used: 5.38 KB
+  Total Points Searched: 20000
+
+Method: KD-Tree Search
+  Total Time: 0.73 ms
+  Average Time per Iteration: 0.037 ms
+  Memory Used: 10.75 KB
+  Total Points Searched: 20000
+
+----------------------------------------------------------------------
+SPEEDUP (Regular vs KD-Tree): 0.87x
+======================================================================
+
+Results saved to: benchmark_results.json
+CSV saved to: benchmark_results.csv
+
+Benchmark complete!
+=== K-D Tree vs Regular Search Benchmark ===
+
+Configuration:
+  Circle Radius: 15 cm
+  Coordinate System: [-15, 15] cm x [-15, 15] cm
+  Grid Size: 25 x 25
+  Grid Size (cm): 1.2cm x 1.2cm
+  Max Test Points: 625
+  Iterations: 20
+
+Generating regular points in circle with respective cells...
+Generated 484 center points
+
+Random shuffle points for unbiased access patterns
+
+Running benchmarks...
+  Regular Search: Done
+  K-D Tree Search: Done
+
+======================================================================
+BENCHMARK RESULTS
+======================================================================
+
+Method: Regular Search
+  Total Time: 2.27 ms
+  Average Time per Iteration: 0.114 ms
+  Memory Used: 15.12 KB
+  Total Points Searched: 20000
+
+Method: KD-Tree Search
+  Total Time: 2.08 ms
+  Average Time per Iteration: 0.104 ms
+  Memory Used: 30.25 KB
+  Total Points Searched: 20000
+
+----------------------------------------------------------------------
+SPEEDUP (Regular vs KD-Tree): 1.09x
+======================================================================
+
+Results saved to: benchmark_results.json
+CSV saved to: benchmark_results.csv
+
+Benchmark complete!

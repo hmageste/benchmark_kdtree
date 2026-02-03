@@ -99,7 +99,7 @@ int main(int argc, char* argv[]) {
     (void)argv;
 
     double radius = 15.0;  // 15 cm
-    int grid_size = 100;
+    int grid_size = 1000;
     int iterations = 20;  // Increased iterations
 
     std::cout << "=== K-D Tree vs Regular Search Benchmark ===" << std::endl;
@@ -107,9 +107,9 @@ int main(int argc, char* argv[]) {
     std::cout << "  Circle Radius: " << radius << " cm" << std::endl;
     std::cout << "  Coordinate System: [" << -radius << ", " << radius << "] cm x [" << -radius << ", "
     << radius << "] cm" << std::endl;
-    std::cout << "  Grid Size: " << grid_size << "x" << grid_size << std::endl;
+    std::cout << "  Grid Size: " << grid_size << " x " << grid_size << std::endl;
     const double step = (2.0 * radius) / grid_size;
-    std::cout << "  Grid Size (cm): " << step << "cm x" << step << "cm" << std::endl;
+    std::cout << "  Grid Size (cm): " << step << "cm x " << step << "cm" << std::endl;
     std::cout << "  Max Test Points: " << static_cast<int>(grid_size * grid_size) << std::endl;
     std::cout << "  Iterations: " << iterations << std::endl;
 
